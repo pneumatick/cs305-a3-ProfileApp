@@ -4,25 +4,42 @@
             "apiComponents": {
                 "ApiContainer": {
                     "id": "ApiContainer",
-                    "children": []
+                    "children": [
+                        {
+                            "type": "AdMob Interstitial",
+                            "translatedName": "AdMob Interstitial",
+                            "isApi": true,
+                            "reactType": "AdMobInterstitial",
+                            "properties": {
+                                "AdUnitID": "ca-app-pub-4565041650311004/8225577630",
+                                "AdUnitID_iOS": "ca-app-pub-3940256099942544/1033173712",
+                                "TestMode": true
+                            },
+                            "children": [],
+                            "id": "513767e7-a6d6-415e-b896-3995d3260b95",
+                            "thunkableVersion": 423,
+                            "name": "AdMob_Interstitial1"
+                        }
+                    ]
                 }
             },
             "assets": {
-                "650c514098304e5bdbdf05b7": {
+                "651f138c1ddbef16b1dc5432": {
                     "externalStorageType": "GCS",
-                    "_id": "650c514098304e5bdbdf05b7",
+                    "_id": "651f138c1ddbef16b1dc5432",
                     "size": "81220",
                     "mimetype": "image/png",
                     "encoding": "7bit",
                     "originalname": "logo-no-background.png",
-                    "backendURI": "/project/6509acb64abc6355362c0df3/getasset/650c514098304e5bdbdf05b7",
+                    "backendURI": "/project/651f138c1ddbef16b7dc5430/getasset/651f138c1ddbef16b1dc5432",
                     "name": "logo-no-background.png",
-                    "externalName": "users/64f61fc216dc6476cb8c16b0/projects/6509acb64abc6355362c0df3/assets/650c514098304e5bdbdf05b7",
+                    "externalName": "users/64f61fc216dc6476cb8c16b0/projects/651f138c1ddbef16b7dc5430/assets/651f138c1ddbef16b1dc5432",
                     "createdAt": "2023-09-21T14:20:48.834Z",
                     "updatedAt": "2023-09-21T14:20:48.834Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f61fc216dc6476cb8c16b0/projects/6509acb64abc6355362c0df3/assets/650c514098304e5bdbdf05b7?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230921%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230921T142048Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=20e259c22de064f96aae3f53612bd78c5cd0abdf4084d04e8108d475854f2a6dd61da329ba37380015f347285341d0e2c6b82aa004f501605b534da965b4f6613a1ae8a996e88ee5223afdb88d4bde518544fbb36cd3851e56c6b99ad498f6430f8f66c1c7b8cfc5f2298985dd95b2e9c659b2ae38059a66a3763b2789419fa0aa4934eda8d650e1c749d3c82a2a4efab06c24548ba2dec9a0c064cb9ddd2179741b885798f1b1b269c0f769a493e750bd7d829ec1c29291d2371bff591ccba0dc17368658e1e6933b3fcaabe94be2ffd10aa3a2bb256c40313ece5696a4687cdf6de8e89d270cf5b66e87c12aac87812d8b8038496c1520d4bf4595238d6fb5",
-                    "signedUrlExpirationTime": 1695478848891
+                    "id": "651f138c1ddbef16b1dc5432",
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f61fc216dc6476cb8c16b0/projects/651f138c1ddbef16b7dc5430/assets/651f138c1ddbef16b1dc5432?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231005%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231005T195110Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=494348721f9389b736f04c1cbde8dae8a5bfddc73077ed9a9f13ffc44bbb53e639d7f864c6aa823848c8b4122394a213ce2cdfd2ad8ce5bfadf26a9533df439f7abdaf3ed4ea3f014a43b73fc6980e8654ce16371b90e02b0e00f894ce51795befe4fd094862846e388670b167a60e1f1c09a81a65acd818707d6f03cb723e4ace495ec9233ae934fbbc75ebca28a5fddda49ac49a6dbc9d357febb3eed87fbcaf8502bac7d4986f52c7943e5d733532b0ff0814af6d094ce6d4dd468ad68119b2d161c2bd5735bcddebb7f8edb5cb441624b735dd8198d5329a51f903280c33868fcd5e3a591c92795cd87b5f24c0aa4a3de377e3957a15f0af91bf75547bb3",
+                    "signedUrlExpirationTime": 1696708270239
                 }
             },
             "backendUpgradeVersion": 21,
@@ -67,15 +84,21 @@
             ],
             "components": {
                 "children": [
-                    "Sign Up Screen.59626656-d26f-451f-98d8-67ca83ae514b",
-                    "Profile Screen.7d707daa-baf8-441f-a948-9cc4d92f7944",
-                    "Sign Out Screen.da1c75ea-de11-4e81-9b88-30a5fc955028"
+                    {
+                        "id": "59626656-d26f-451f-98d8-67ca83ae514b"
+                    },
+                    {
+                        "id": "7d707daa-baf8-441f-a948-9cc4d92f7944"
+                    },
+                    {
+                        "id": "da1c75ea-de11-4e81-9b88-30a5fc955028"
+                    }
                 ]
             },
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "(A3) ProfileApp",
+            "projectName": "(A5) ProfileApp with ads",
             "settings": {
                 "teamId": null,
                 "appName": null,
@@ -107,10 +130,7 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSCameraUsageDescription": "",
-                            "NSPhotoLibraryUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -121,7 +141,7 @@
                 "appleOAuthWebClientID": null,
                 "appleOAuthWebRedirectURI": null,
                 "admobAppIdIOS": null,
-                "admobAppIdAndroid": null,
+                "admobAppIdAndroid": "ca-app-pub-4565041650311004~4692692582",
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
@@ -156,10 +176,7 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSCameraUsageDescription": "",
-                            "NSPhotoLibraryUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -170,11 +187,11 @@
                 "appleOAuthWebClientID": null,
                 "appleOAuthWebRedirectURI": null,
                 "admobAppIdIOS": null,
-                "admobAppIdAndroid": null,
+                "admobAppIdAndroid": "ca-app-pub-4565041650311004~4692692582",
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
-            "hasAdmob": false,
+            "hasAdmob": true,
             "hasBluetoothLowEnergy": null,
             "hasPushNotification": false,
             "hasAssistant": null,
